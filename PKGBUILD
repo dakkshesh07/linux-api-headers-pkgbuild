@@ -18,7 +18,6 @@ build() {
   cd linux-$pkgver
 
   make mrproper
-  make headers_check
 }
 
 package() {
