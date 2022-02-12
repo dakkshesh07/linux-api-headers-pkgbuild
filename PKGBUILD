@@ -4,7 +4,7 @@
 # toolchain build order: linux-api-headers->glibc->binutils->gcc->binutils->glibc
 
 pkgname=linux-api-headers
-pkgver=5.16.7
+pkgver=5.16.8
 pkgrel=1
 pkgdesc='Kernel headers sanitized for use in userspace'
 arch=(any)
@@ -12,7 +12,7 @@ url='https://www.gnu.org/software/libc'
 license=(GPL2)
 makedepends=('rsync')
 source=("https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-$pkgver.tar.xz")
-sha256sums=('5751f53e8e5415eb0494ac1513765cbdea28848963999dfdb5d4e7f4c3d8a6cd')
+sha256sums=('52aa5f05ee8addcc1ec0020f50e5f88ea1a308c2afac4a2305e1e4cf42580316')
 
 build() {
   cd linux-$pkgver
